@@ -3,9 +3,7 @@ import { fileURLToPath } from 'url'
 import { FlatCompat } from '@eslint/eslintrc'
 import ts from 'typescript-eslint'
 import tailwind from 'eslint-plugin-tailwindcss'
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
-
-
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
